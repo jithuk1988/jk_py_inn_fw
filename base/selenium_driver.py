@@ -14,6 +14,9 @@ class SeleniumDriver():
     def __init__(self, driver):
         self.driver = driver
 
+    def getTitle(self):
+        return self.driver.title
+
     def screenShot(self, resultMessage):
         """
         Takes screenshot of the current open web page

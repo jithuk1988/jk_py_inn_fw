@@ -1,9 +1,8 @@
-from selenium.webdriver.common.by import By
-from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
 import logging
+from base.basepage import BasePage
 
-class LoginPage(SeleniumDriver):
+class LoginPage(BasePage):
     log = cl.customLogger(logging.DEBUG)
 
     def __init__(self,driver):
@@ -30,15 +29,18 @@ class LoginPage(SeleniumDriver):
         self.clickLogin()
 
     def verifyLoginSuccess(self):
-        result=self.isWaitedElementPresent(".//input[@name='searchText']",timeout=20)
+        result = self.isWaitedElementPresent(".//input[@name='searchText']",timeout=20)
         return result
 
     def verifyFailedLogin(self):
-        result=self.isWaitedElementPresent("login-error-msg",
+        result = self.isWaitedElementPresent("login-error-msg",
                                      locatorType="class")
         return result
 
     def verifyFooterLogo(self):
-        result=self.isWaitedElementPresent(".//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas']",
+        result = self.isWaitedElementPresent(".//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas']",
                                            timeout=20)
+        return result
+    def verifyLoginPageTitle(self):
+        result = self.verifyPageTitle("Innotas | Customer Log In")
         return result

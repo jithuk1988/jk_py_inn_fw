@@ -1,4 +1,3 @@
-from selenium import webdriver
 from pages.login.login_page import LoginPage
 import unittest
 import pytest
@@ -12,17 +11,21 @@ class LoginTest(unittest.TestCase):
         self.loginAction = LoginPage(self.driver)
         self.testreults = TCStatus(self.driver)
 
-    @pytest.mark.run(order=2)
+    @pytest.mark.run(order=3)
     def testValidLogin(self):
         self.loginAction.login("v5new6auto","innotas")
         actualresult1 = self.loginAction.verifyLoginSuccess()
-        self.testreults.mark(actualresult1,"alid Login Test-Search Box")
+        self.testreults.mark(actualresult1,"Valid Login Test-Search Box")
         actualresult2 = self.loginAction.verifyFooterLogo()
         self.testreults.markFinal("Login Test",actualresult2, "Valid Login Test-Footer Image")
 
-    @pytest.mark.run(order=1)
+    @pytest.mark.run(order=2)
     def testInvalidLogin(self):
         self.loginAction.login("v5new6auto", "innotas21")
         actualresult = self.loginAction.verifyFailedLogin()
-        self.testreults.markFinal("Login Test", actualresult, "Invalid Login Test")
-        assert actualresult == True
+        self.testreults.markFinal("Invalid Login Test ",actualresult, "Invalid Login Test")
+
+    @pytest.mark.run(order=1)
+    def testLoginPageTitle(self):
+        actualresult = self.loginAction.verifyLoginPageTitle()
+        self.testreults.mark(actualresult, "Login Page Title Test")
