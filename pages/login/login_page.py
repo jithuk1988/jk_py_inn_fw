@@ -2,6 +2,7 @@ import utilities.custom_logger as cl
 import logging
 from base.basepage import BasePage
 
+
 class LoginPage(BasePage):
     log = cl.customLogger(logging.DEBUG)
 
@@ -41,6 +42,7 @@ class LoginPage(BasePage):
         result = self.isWaitedElementPresent(".//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas']",
                                            timeout=20)
         return result
+
     def verifyLoginPageTitle(self):
         result = self.verifyPageTitle("Innotas | Customer Log In")
         return result

@@ -1,5 +1,4 @@
 import pytest
-from selenium import webdriver
 from base.webdriverfactory import WebDriverFactory
 import time
 import utilities.custom_logger as cl
@@ -27,7 +26,6 @@ def oneTimeSetUp(request, browser):
     driver.quit()
     print("Running one time tearDown")
 
-
 def pytest_addoption(parser):
     parser.addoption("--browser")
     parser.addoption("--osType", help="Type of operating system")
@@ -37,5 +35,6 @@ def browser(request):
     return request.config.getoption("--browser")
 
 @pytest.fixture(scope="session")
+
 def osType(request):
     return request.config.getoption("--osType")
