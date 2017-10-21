@@ -3,8 +3,11 @@ from base.webdriverfactory import WebDriverFactory
 import time
 import utilities.custom_logger as cl
 import logging
+from pages.login.login_page import LoginPage
+from utilities.util import Util
 
 log = cl.customLogger(logging.DEBUG)
+util=Util()
 
 @pytest.yield_fixture()
 def setUp():
@@ -17,6 +20,10 @@ def oneTimeSetUp(request, browser):
     #Running one time setUp
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
+    lp=LoginPage(driver)
+    lp.login("v5new6auto","innotas")
+    util.sleep(20,"Home Page Cache Load")
+
     if request.cls is not None:
         request.cls.driver = driver
 
