@@ -1,0 +1,199 @@
+10/21/2017 02:46:11 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 02:46:11 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 02:46:11 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 02:46:11 PM - LoginPage - INFO: Data: innotas21 entered into the field
+10/21/2017 02:46:11 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:46:13 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:46:33 PM - LoginPage - INFO: Element not appeared on the web page
+10/21/2017 02:46:33 PM - LoginPage - INFO: Element not found with locator: login-error-msg4 and locator Type: class
+10/21/2017 02:46:33 PM - TCStatus - ERROR: ### VERIFICATION FAILED :: + ----->Invalid Login Test Completed
+10/21/2017 02:46:33 PM - TCStatus - INFO: Screenshot save to directory: C:\Python_Workspace\FrameWork\base\../screenshots/----->Invalid Login Test Completed.1508577393364.png
+10/21/2017 02:46:33 PM - TCStatus - ERROR: Login Test ### TEST FAILED
+10/21/2017 02:46:33 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 02:46:33 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 02:46:33 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 02:46:33 PM - LoginPage - INFO: Data: innotas entered into the field
+10/21/2017 02:46:33 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:46:41 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:46:53 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 02:46:53 PM - LoginPage - INFO: Element Found with locator: .//input[@name='searchText'] and locator Type: xpath
+10/21/2017 02:46:53 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Verified home page Search box presence
+10/21/2017 02:46:53 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 02:46:53 PM - LoginPage - INFO: Element Found with locator: .//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas'] and locator Type: xpath
+10/21/2017 02:46:53 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + ----->Login Test Completed
+10/21/2017 02:46:53 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 02:46:53 PM - <module> - INFO: Quiting browser in 3 Seconds
+10/21/2017 02:47:44 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 02:47:44 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 02:47:44 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 02:47:44 PM - LoginPage - INFO: Data: innotas21 entered into the field
+10/21/2017 02:47:44 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:47:46 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:48:06 PM - LoginPage - INFO: Element not appeared on the web page
+10/21/2017 02:48:06 PM - LoginPage - INFO: Element not found with locator: login-error-msg4 and locator Type: class
+10/21/2017 02:48:06 PM - TCStatus - ERROR: ### VERIFICATION FAILED :: + ----->Invalid Login Test Completed
+10/21/2017 02:48:06 PM - TCStatus - INFO: Screenshot save to directory: C:\Python_Workspace\FrameWork\base\..\screenshots\----->Invalid Login Test Completed.1508577486645.png
+10/21/2017 02:48:06 PM - TCStatus - ERROR: Login Test ### TEST FAILED
+10/21/2017 02:48:07 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 02:48:07 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 02:48:07 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 02:48:07 PM - LoginPage - INFO: Data: innotas entered into the field
+10/21/2017 02:48:07 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:48:16 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:48:28 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 02:48:28 PM - LoginPage - INFO: Element Found with locator: .//input[@name='searchText'] and locator Type: xpath
+10/21/2017 02:48:28 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Verified home page Search box presence
+10/21/2017 02:48:28 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 02:48:28 PM - LoginPage - INFO: Element Found with locator: .//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas'] and locator Type: xpath
+10/21/2017 02:48:28 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + ----->Login Test Completed
+10/21/2017 02:48:28 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 02:48:28 PM - <module> - INFO: Quiting browser in 3 Seconds
+10/21/2017 02:49:52 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 02:49:52 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 02:49:52 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 02:49:52 PM - LoginPage - INFO: Data: innotas21 entered into the field
+10/21/2017 02:49:52 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:49:54 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:50:14 PM - LoginPage - INFO: Element not appeared on the web page
+10/21/2017 02:50:14 PM - LoginPage - INFO: Element not found with locator: login-error-msg4 and locator Type: class
+10/21/2017 02:50:14 PM - TCStatus - ERROR: ### VERIFICATION FAILED :: + Invalid Login Test
+10/21/2017 02:50:14 PM - TCStatus - INFO: Screenshot save to directory: C:\Python_Workspace\FrameWork\base\..\screenshots\Invalid Login Test.1508577614427.png
+10/21/2017 02:50:14 PM - TCStatus - ERROR: Login Test ### TEST FAILED
+10/21/2017 02:50:14 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 02:50:14 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 02:50:14 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 02:50:14 PM - LoginPage - INFO: Data: innotas entered into the field
+10/21/2017 02:50:14 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:50:22 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:50:36 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 02:50:36 PM - LoginPage - INFO: Element Found with locator: .//input[@name='searchText'] and locator Type: xpath
+10/21/2017 02:50:36 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Verified home page Search box presence
+10/21/2017 02:50:36 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 02:50:36 PM - LoginPage - INFO: Element Found with locator: .//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas'] and locator Type: xpath
+10/21/2017 02:50:36 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Valid Login Test
+10/21/2017 02:50:36 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 02:50:36 PM - <module> - INFO: Quiting browser in 3 Seconds
+10/21/2017 02:56:49 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 02:56:49 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 02:56:49 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 02:56:49 PM - LoginPage - INFO: Data: innotas21 entered into the field
+10/21/2017 02:56:49 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:56:51 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:56:59 PM - LoginPage - INFO: Element not appeared on the web page
+10/21/2017 02:56:59 PM - LoginPage - INFO: Element not found with locator: login-error-msg4 and locator Type: class
+10/21/2017 02:56:59 PM - TCStatus - ERROR: ### VERIFICATION FAILED :: + Invalid Login Test
+10/21/2017 02:56:59 PM - TCStatus - INFO: Screenshot save to directory: C:\Python_Workspace\FrameWork\base\..\screenshots\Invalid Login Test.1508578019352.png
+10/21/2017 02:56:59 PM - TCStatus - ERROR: Login Test ### TEST FAILED
+10/21/2017 02:56:59 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 02:56:59 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 02:56:59 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 02:56:59 PM - LoginPage - INFO: Data: innotas entered into the field
+10/21/2017 02:56:59 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:57:06 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 02:57:14 PM - LoginPage - INFO: Element not appeared on the web page
+10/21/2017 02:57:14 PM - LoginPage - INFO: Element not found with locator: .//input[@name='searchText'] and locator Type: xpath
+10/21/2017 02:57:14 PM - TCStatus - ERROR: ### VERIFICATION FAILED :: + Verified home page Search box presence
+10/21/2017 02:57:15 PM - TCStatus - INFO: Screenshot save to directory: C:\Python_Workspace\FrameWork\base\..\screenshots\Verified home page Search box presence.1508578034666.png
+10/21/2017 02:57:17 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 02:57:17 PM - LoginPage - INFO: Element Found with locator: .//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas'] and locator Type: xpath
+10/21/2017 02:57:17 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Valid Login Test
+10/21/2017 02:57:17 PM - TCStatus - ERROR: Login Test ### TEST FAILED
+10/21/2017 02:57:17 PM - <module> - INFO: Quiting browser in 3 Seconds
+10/21/2017 03:04:16 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 03:04:16 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 03:04:16 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 03:04:16 PM - LoginPage - INFO: Data: innotas21 entered into the field
+10/21/2017 03:04:16 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 03:04:18 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 03:04:26 PM - LoginPage - INFO: Element not appeared on the web page
+10/21/2017 03:04:26 PM - LoginPage - INFO: Element not found with locator: login-error-msg4 and locator Type: class
+10/21/2017 03:04:26 PM - TCStatus - ERROR: ### VERIFICATION FAILED :: + Invalid Login Test
+10/21/2017 03:04:26 PM - TCStatus - INFO: Screenshot save to directory: C:\Python_Workspace\FrameWork\base\..\screenshots\InvalidLoginTest-1508578466672.png
+10/21/2017 03:04:26 PM - TCStatus - ERROR: Login Test ### TEST FAILED
+10/21/2017 03:04:27 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 03:04:27 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 03:04:27 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 03:04:27 PM - LoginPage - INFO: Data: innotas entered into the field
+10/21/2017 03:04:27 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 03:04:38 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 03:04:47 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 03:04:47 PM - LoginPage - INFO: Element Found with locator: .//input[@name='searchText'] and locator Type: xpath
+10/21/2017 03:04:47 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + alid Login Test-Search Box
+10/21/2017 03:04:47 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 03:04:47 PM - LoginPage - INFO: Element Found with locator: .//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas'] and locator Type: xpath
+10/21/2017 03:04:47 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Valid Login Test-Footer Image
+10/21/2017 03:04:47 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 03:04:47 PM - <module> - INFO: Quiting browser in 3 Seconds
+10/21/2017 03:05:32 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 03:05:32 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 03:05:32 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 03:05:32 PM - LoginPage - INFO: Data: innotas21 entered into the field
+10/21/2017 03:05:32 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 03:05:34 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 03:05:34 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 03:05:34 PM - LoginPage - INFO: Element Found with locator: login-error-msg and locator Type: class
+10/21/2017 03:05:34 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Invalid Login Test
+10/21/2017 03:05:34 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 03:05:34 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 03:05:34 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 03:05:34 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 03:05:34 PM - LoginPage - INFO: Data: innotas entered into the field
+10/21/2017 03:05:34 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 03:05:39 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 03:05:53 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 03:05:53 PM - LoginPage - INFO: Element Found with locator: .//input[@name='searchText'] and locator Type: xpath
+10/21/2017 03:05:53 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + alid Login Test-Search Box
+10/21/2017 03:05:53 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 03:05:53 PM - LoginPage - INFO: Element Found with locator: .//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas'] and locator Type: xpath
+10/21/2017 03:05:53 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Valid Login Test-Footer Image
+10/21/2017 03:05:53 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 03:05:53 PM - <module> - INFO: Quiting browser in 3 Seconds
+10/21/2017 05:12:11 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 05:12:11 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 05:12:12 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 05:12:12 PM - LoginPage - INFO: Data: innotas21 entered into the field
+10/21/2017 05:12:12 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 05:12:15 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 05:12:15 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 05:12:15 PM - LoginPage - INFO: Element Found with locator: login-error-msg and locator Type: class
+10/21/2017 05:12:15 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Invalid Login Test
+10/21/2017 05:12:15 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 05:12:15 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 05:12:15 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 05:12:15 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 05:12:15 PM - LoginPage - INFO: Data: innotas entered into the field
+10/21/2017 05:12:15 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 05:12:39 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 05:13:00 PM - LoginPage - INFO: Element not appeared on the web page
+10/21/2017 05:13:00 PM - LoginPage - INFO: Element not found with locator: .//input[@name='searchText'] and locator Type: xpath
+10/21/2017 05:13:00 PM - TCStatus - ERROR: ### VERIFICATION FAILED :: + alid Login Test-Search Box
+10/21/2017 05:13:00 PM - TCStatus - INFO: Screenshot save to directory: C:\Python_Workspace\FrameWork\base\..\screenshots\alidLoginTest-SearchBox-1508586180243.png
+10/21/2017 05:13:15 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 05:13:15 PM - LoginPage - INFO: Element Found with locator: .//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas'] and locator Type: xpath
+10/21/2017 05:13:15 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Valid Login Test-Footer Image
+10/21/2017 05:13:15 PM - TCStatus - ERROR: Login Test ### TEST FAILED
+10/21/2017 05:13:16 PM - <module> - INFO: Quiting browser in 3 Seconds
+10/21/2017 05:22:23 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 05:22:23 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 05:22:23 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 05:22:23 PM - LoginPage - INFO: Data: innotas21 entered into the field
+10/21/2017 05:22:24 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 05:22:27 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 05:22:27 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 05:22:27 PM - LoginPage - INFO: Element Found with locator: login-error-msg and locator Type: class
+10/21/2017 05:22:27 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Invalid Login Test
+10/21/2017 05:22:27 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 05:22:27 PM - LoginPage - INFO: Element Found with locator: login and locator Type: id
+10/21/2017 05:22:27 PM - LoginPage - INFO: Data: v5new6auto entered into the field
+10/21/2017 05:22:27 PM - LoginPage - INFO: Element Found with locator: password and locator Type: name
+10/21/2017 05:22:27 PM - LoginPage - INFO: Data: innotas entered into the field
+10/21/2017 05:22:27 PM - LoginPage - INFO: Element Found with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 05:22:34 PM - LoginPage - INFO: Clicked on Element with locator: .//*[@id='UserPassForm']/form/button and locator Type: xpath
+10/21/2017 05:22:49 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 05:22:49 PM - LoginPage - INFO: Element Found with locator: .//input[@name='searchText'] and locator Type: xpath
+10/21/2017 05:22:49 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + alid Login Test-Search Box
+10/21/2017 05:22:49 PM - LoginPage - INFO: Element appeared on the web page
+10/21/2017 05:22:49 PM - LoginPage - INFO: Element Found with locator: .//img[@src='/image/ttlogos/powered_by_logo.png' and @alt='Powered by Innotas'] and locator Type: xpath
+10/21/2017 05:22:49 PM - TCStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Valid Login Test-Footer Image
+10/21/2017 05:22:49 PM - TCStatus - INFO: Login Test ### TEST SUCCESSFUL
+10/21/2017 05:22:49 PM - <module> - INFO: Quiting browser in 3 Seconds
