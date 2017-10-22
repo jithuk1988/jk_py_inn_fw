@@ -1,1 +1,3 @@
-{}
+{
+  "tests/home/home_test.py::HomeTest::testHomeNavigation": true
+}

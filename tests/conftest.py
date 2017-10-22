@@ -4,6 +4,7 @@ import time
 import utilities.custom_logger as cl
 import logging
 from pages.login.login_page import LoginPage
+from pages.home.navigation_page import NavigationPage
 from utilities.util import Util
 
 log = cl.customLogger(logging.DEBUG)
@@ -21,16 +22,18 @@ def oneTimeSetUp(request, browser):
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
     lp=LoginPage(driver)
+    nav = NavigationPage(driver)
     lp.login("v5new6auto","innotas")
-    util.sleep(20,"Home Page Cache Load")
+    util.sleep(15,"Home Page Cache Load")
 
     if request.cls is not None:
         request.cls.driver = driver
 
     yield driver
+    nav.logout()
     log.info("Quiting browser in 3 Seconds")
     time.sleep(3)
-    driver.quit()
+  #  driver.quit()
     print("Running one time tearDown")
 
 def pytest_addoption(parser):

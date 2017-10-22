@@ -526,3 +526,235 @@ Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\ope
 Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
 JavaScript warning: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/classic-azul/app.js?_dc=20171019193037, line 1: unreachable code after return statement
 1508597688857	Marionette	INFO	New connections will no longer be accepted
+1508665256552	geckodriver	INFO	geckodriver 0.19.0
+1508665256568	geckodriver	INFO	Listening on 127.0.0.1:17954
+1508665256708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\JITHU_~1\\AppData\\Local\\Temp\\rust_mozprofile.KpYU2bbGJxiB"
+1508665258777	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508665260513	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8176] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8176] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508665282043	Marionette	INFO	Listening on port 17958
+1508665283061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508665283175	Marionette	DEBUG	Register listener.js for window 4294967297
+1508665283336	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508665287061	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508665287062	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508665297884	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/index.jsp"
+1508665298899	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/index.jsp"
+1508665299687	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/index.jsp"
+1508665301920	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/index.jsp"
+1508665301921	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/index.jsp"
+1508665304955	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+1508665304958	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/classic-azul/app.js?_dc=20171019193037, line 1: unreachable code after return statement
+1508665365318	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8748] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8748] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+r parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508666051944	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2984] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2984] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508666061231	Marionette	INFO	Listening on port 18078
+1508666061377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508666064442	Marionette	DEBUG	Register listener.js for window 4294967297
+1508666064496	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508666067146	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508666067146	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508666068670	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/index.jsp"
+1508666077049	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/index.jsp"
+1508666077259	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/index.jsp"
+1508666079401	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/index.jsp"
+1508666079401	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/index.jsp"
+1508666082975	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+1508666082977	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/microloader.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3496] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3496] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508666436784	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5108] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508666277847	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9652] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9652] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508666281751	Marionette	INFO	Listening on port 18163
+1508666282467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508666282514	Marionette	DEBUG	Register listener.js for window 4294967297
+1508666282572	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508666285411	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508666285412	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508666289122	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/index.jsp"
+1508666334868	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/index.jsp"
+1508666335069	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/index.jsp"
+1508666340254	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/index.jsp"
+1508666340254	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/index.jsp"
+1508666404516	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+1508666404517	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/microloader.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3600] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9716] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9716] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1508666444523	geckodriver::marionette	ERROR	Failed to kill browser process
+1508666731127	geckodriver	INFO	geckodriver 0.19.0
+1508666731143	geckodriver	INFO	Listening on 127.0.0.1:18310
+1508666731612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\JITHU_~1\\AppData\\Local\\Temp\\rust_mozprofile.ylL2eTn5dp58"
+1508666732939	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508666733944	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[11324] WARNING: failed to create pipe: 0: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 221
+[11324] WARNING: Unable to create pipe named "13076.0.1523230018\1300350778" in client mode.: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 59
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFFB,name=???) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3B0018,name=PGPU::Msg_InitCrashReporter) Channel error: cannot send/recv
+
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8836] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8836] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508666742318	Marionette	INFO	Listening on port 18314
+1508666742398	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Could not get a DXGI adapter
+1508666746453	Marionette	DEBUG	Register listener.js for window 4294967297
+1508666746511	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+[GFX1-]: Could not get a DXGI adapter
+1508666762769	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508666762769	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508666768825	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/index.jsp"
+1508666770085	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/index.jsp"
+1508666770828	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/index.jsp"
+1508666773352	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/index.jsp"
+1508666773352	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/index.jsp"
+1508666779836	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+1508666779838	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/microloader.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13076] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13076] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7888] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Child 440] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7888] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 440] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508682021128	geckodriver	INFO	geckodriver 0.19.0
+1508682021160	geckodriver	INFO	Listening on 127.0.0.1:22460
+1508682023691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\JITHU_~1\\AppData\\Local\\Temp\\rust_mozprofile.MWip7GfMhgRN"
+1508682039439	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508682052749	Marionette	INFO	Enabled via --marionette
+1508682098222	Marionette	INFO	Listening on port 22473
+1508682099079	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508682099246	Marionette	DEBUG	Register listener.js for window 4294967297
+1508682099927	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508682103729	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508682103730	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508682105496	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/index.jsp"
+1508682107564	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/index.jsp"
+1508682108285	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/index.jsp"
+1508682111795	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/index.jsp"
+1508682111796	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/index.jsp"
+1508682113953	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+1508682113955	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/classic-azul/app.js?_dc=20171019193037, line 1: unreachable code after return statement
+1508682129144	Marionette	DEBUG	Received DOM event "popstate" for "https://q3.innotas.io/home.pa#%5BT8%2CM750%5D"
+1508682129444	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508682811431	geckodriver	INFO	geckodriver 0.19.0
+1508682811446	geckodriver	INFO	Listening on 127.0.0.1:22866
+1508682811931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\JITHU_~1\\AppData\\Local\\Temp\\rust_mozprofile.Ew1zqLWxIXrl"
+1508682812987	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508682814322	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11432] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11432] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508682823360	Marionette	INFO	Listening on port 22870
+1508682823753	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508682833125	Marionette	DEBUG	Register listener.js for window 4294967297
+1508682833192	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508682835564	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508682835565	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508682836936	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/index.jsp"
+1508682837796	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/index.jsp"
+1508682838008	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/index.jsp"
+1508682840253	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/index.jsp"
+1508682840254	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/index.jsp"
+1508682842078	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+1508682842080	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/classic-azul/app.js?_dc=20171019193037, line 1: unreachable code after return statement
+1508682857234	Marionette	DEBUG	Received DOM event "popstate" for "https://q3.innotas.io/home.pa#%5BT8%2CM750%5D"
+1508682857529	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508682951392	geckodriver	INFO	geckodriver 0.19.0
+1508682951392	geckodriver	INFO	Listening on 127.0.0.1:22957
+1508682951939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\JITHU_~1\\AppData\\Local\\Temp\\rust_mozprofile.guXzPdSJ5LTA"
+1508682953176	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508682954094	Marionette	INFO	Enabled via --marionette
+1508682965273	Marionette	INFO	Listening on port 22961
+1508682965349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508682971816	Marionette	DEBUG	Register listener.js for window 4294967297
+1508682971863	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508682974206	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508682974206	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508682975767	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/index.jsp"
+1508682977269	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/index.jsp"
+1508682977459	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/index.jsp"
+1508682979644	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/index.jsp"
+1508682979645	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/index.jsp"
+1508682981785	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+1508682981787	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/classic-azul/app.js?_dc=20171019193037, line 1: unreachable code after return statement
+1508682996928	Marionette	DEBUG	Received DOM event "popstate" for "https://q3.innotas.io/home.pa#%5BT8%2CM750%5D"
+1508682997214	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508683983426	geckodriver	INFO	geckodriver 0.19.0
+1508683983441	geckodriver	INFO	Listening on 127.0.0.1:23150
+1508683986363	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\JITHU_~1\\AppData\\Local\\Temp\\rust_mozprofile.sei59hnlJlpR"
+1508683991295	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1508683992637	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8016] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8016] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1508684001761	Marionette	INFO	Listening on port 23156
+1508684003329	Marionette	WARN	TLS certificate errors will be ignored for this session
+1508684010478	Marionette	DEBUG	Register listener.js for window 4294967297
+1508684010666	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1508684013445	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1508684013445	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1508684014498	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/index.jsp"
+1508684015326	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/index.jsp"
+1508684015625	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/index.jsp"
+1508684017916	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/index.jsp"
+1508684017917	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/index.jsp"
+1508684019467	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+1508684019469	Marionette	DEBUG	Received DOM event "pageshow" for "https://q3.innotas.io/home.pa#%5BT1%2CM640%5D"
+Unable to read VR Path Registry from C:\Users\jithu_000\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://q3.innotas.io/ext/workspace/build/production/Innotas/classic-azul/classic-azul/app.js?_dc=20171019193037, line 1: unreachable code after return statement
+1508684034661	Marionette	DEBUG	Received DOM event "popstate" for "https://q3.innotas.io/home.pa#%5BT8%2CM750%5D"
+1508684034966	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1508684040029	Marionette	DEBUG	Received DOM event "beforeunload" for "https://q3.innotas.io/home.pa#%5BT8%2CM750%5D"
+1508684042487	Marionette	DEBUG	Received DOM event "pagehide" for "https://q3.innotas.io/home.pa#%5BT8%2CM750%5D"
+1508684042490	Marionette	DEBUG	Received DOM event "unload" for "https://q3.innotas.io/home.pa#%5BT8%2CM750%5D"
+1508684043624	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://qalogin.innotas.io/index.jsp"
+1508684044807	Marionette	DEBUG	Received DOM event "pageshow" for "https://qalogin.innotas.io/index.jsp"

@@ -7,6 +7,7 @@ import utilities.custom_logger as cl
 import logging
 import time
 import os
+from selenium.webdriver import ActionChains
 
 class SeleniumDriver():
     log = cl.customLogger(logging.DEBUG)
@@ -75,6 +76,18 @@ class SeleniumDriver():
         except:
             self.log.info("Element not found with locator: "+locator+ " and locator Type: "+locatorType)
         return element
+
+    def getElementID(self,locator, locatorType="xpath"):
+        elementID = None
+        try:
+            locatorType = locatorType.lower()
+            byType = self.getByType(locatorType)
+            element = self.driver.find_element(byType, locator)
+            elementID = element.get_attribute("id")
+            self.log.info("Element Found with locator: " + locator + " and locator Type: " + locatorType)
+        except:
+            self.log.info("Element not found with locator: " + locator + " and locator Type: " + locatorType)
+        return elementID
 
     def getElementList(self, locator, locatorType="xpath"):
         """
@@ -149,6 +162,21 @@ class SeleniumDriver():
         except:
             self.log.info("Element not found")
             return False
+    def splitButtonClick(self, locator="", locatorType = "xpath"):
+        try:
+            actions = ActionChains(self.driver)
+            element = self.getElement(locator,locatorType)
+            elementID=self.getElementID(locator,locatorType)
+            actions.move_to_element(element)
+            actions.click(element)
+            actions.perform()
+            script="document.getElementById(\""+ elementID + "\").click();"
+          #  self.driver.execute_script(script)
+            self.log.info(script)
+            self.log.info("Clicked on Element with locator: " + locator + " and locator Type: " + locatorType)
+        except:
+            self.log.info("Cannot click on Element with locator: " + locator + " and locator Type: " + locatorType)
+            print_stack()
 
     def elementClick(self, locator="", locatorType = "xpath",element=None):
         try:
@@ -160,7 +188,7 @@ class SeleniumDriver():
             self.log.info("Cannot click on Element with locator: "+locator+ " and locator Type: "+locatorType)
             print_stack()
 
-    def getText(self, locator="", locatorType="id", element=None, info=""):
+    def getText(self, locator="", locatorType="xpath", element=None, info=""):
         """
         Get 'Text' on an element
         Either provide element or a combination of locator and locatorType

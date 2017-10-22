@@ -95,8 +95,8 @@ class Util(object):
             expectedList: Expected Text
             actualList: Actual Text
         """
-        self.log.info("Actual Text From Application Web UI --> :: " + actualText)
-        self.log.info("Expected Text From Application Web UI --> :: " + expectedText)
+        self.log.info("Actual Text From Application Web UI --> :: " + str(actualText))
+        self.log.info("Expected Text From Application Web UI --> :: " + str(expectedText))
         if actualText.lower() == expectedText.lower():
             self.log.info("### VERIFICATION MATCHED !!!")
             return True
