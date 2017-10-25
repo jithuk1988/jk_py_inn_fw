@@ -15,6 +15,7 @@ class LoginPage(BasePage):
     _password_textbox = "password" # Name
     _login_button = ".//*[@id='UserPassForm']/form/button" # XPath
     _loginpage_url = "https://q3.innotas.io/index.jsp"
+
     def enterUsername(self,username):
         self.sendKeys(username,self._username_textbox,locatorType="id")
 

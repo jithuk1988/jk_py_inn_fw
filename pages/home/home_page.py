@@ -18,6 +18,7 @@ class HomePage(BasePage):
 
     def verifyAdminPageNavgation(self):
         self.nav.navigateToAdminTab()
+
         adminPageText=self.getText(self._adminOrgLink,locatorType="link")
         result = self.util.verifyTextMatch(adminPageText,"Organization(dd)")
         return result

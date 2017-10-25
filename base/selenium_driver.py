@@ -41,6 +41,14 @@ class SeleniumDriver():
         except:
             self.log.error("### Exception Occurred when taking screenshot")
             print_stack()
+    def getXpathOfLabelName(self,label):
+        xpath = "//span[text()='"+label+"']"
+        return xpath
+
+    def getXpathOfSelectBoxValue(self,valuetoselect):
+        xpath = "//ul/div[contains(text(),'"+valuetoselect+"')]"
+        xpat="QA***********************************************************"
+        return xpath
 
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
@@ -126,6 +134,9 @@ class SeleniumDriver():
         except:
             print("Element not found")
             return False
+    def getLabelElement(self, label):
+        element=self.getElement(self.getXpathOfLabelName(label))
+        return element
 
     def isElementDisplayed(self, locator="", locatorType="id", element=None):
         """
@@ -165,19 +176,33 @@ class SeleniumDriver():
     def splitButtonClick(self, locator="", locatorType = "xpath"):
         try:
             actions = ActionChains(self.driver)
-            element = self.getElement(locator,locatorType)
-            elementID=self.getElementID(locator,locatorType)
+            element = self.waitForElementToClickable(locator,locatorType)
+            #elementID=self.getElementID(locator,locatorType)
             actions.move_to_element(element)
             actions.click(element)
             actions.perform()
-            script="document.getElementById(\""+ elementID + "\").click();"
-          #  self.driver.execute_script(script)
-            self.log.info(script)
+            #script="document.getElementById(\""+ elementID + "\").click();"
+            #self.driver.execute_script(script)
+            #self.log.info(script)
             self.log.info("Clicked on Element with locator: " + locator + " and locator Type: " + locatorType)
         except:
             self.log.info("Cannot click on Element with locator: " + locator + " and locator Type: " + locatorType)
             print_stack()
-
+    def clickUsingLabelText(self, label):
+        try:
+            actions = ActionChains(self.driver)
+            element = self.getLabelElement(label)
+            #elementID=self.getElementID(locator,locatorType)
+            actions.move_to_element(element)
+            actions.click(element)
+            actions.perform()
+            #script="document.getElementById(\""+ elementID + "\").click();"
+            #self.driver.execute_script(script)
+            #self.log.info(script)
+            self.log.info("Clicked on Element with locator: " + label + " and locator Type: ")
+        except:
+            self.log.info("Cannot click on Element with locator: " + label + " and locator Type: ")
+            print_stack()
     def elementClick(self, locator="", locatorType = "xpath",element=None):
         try:
             if locator:
@@ -257,6 +282,28 @@ class SeleniumDriver():
             self.log.info("Element not appeared on the web page")
             print_stack()
         return element
+
+
+    def waitForElementToClickable(self, locator, locatorType="xpath",
+                       timeout=5, pollFrequency=0.5):
+        element = None
+        try:
+            byType = self.getByType(locatorType)
+            print("Waiting for maximum :: " + str(timeout) +
+                  " :: seconds for element to be Visible")
+            wait = WebDriverWait(self.driver, timeout, poll_frequency=1,
+                                 ignored_exceptions=[NoSuchElementException,
+                                                     ElementNotVisibleException,
+                                                     ElementNotSelectableException])
+            element = wait.until(EC.element_to_be_clickable((byType,
+                                                             locator)))
+            self.log.info("Element appeared on the web page")
+        except:
+            self.log.info("Element not appeared on the web page")
+            print_stack()
+        return element
+
+
 
     def pageScroll(self, direction="up"):
         """

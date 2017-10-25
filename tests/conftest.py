@@ -33,7 +33,7 @@ def oneTimeSetUp(request, browser):
     nav.logout()
     log.info("Quiting browser in 3 Seconds")
     time.sleep(3)
-  #  driver.quit()
+    driver.quit()
     print("Running one time tearDown")
 
 def pytest_addoption(parser):
