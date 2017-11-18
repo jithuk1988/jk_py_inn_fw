@@ -41,14 +41,32 @@ class SeleniumDriver():
         except:
             self.log.error("### Exception Occurred when taking screenshot")
             print_stack()
+
     def getXpathOfLabelName(self,label):
+        """
+        To get the xpath of an element within a page
+        :param label:
+        :return xpath:
+        """
         xpath = "//span[text()='"+label+"']"
         return xpath
+
+    def getXpathOfDialogLabelName(self,label):
+        """
+        To get the xpath of an element within a dialog Eg: Project Creation dialog
+        :param label:
+        :return xpath:
+        """
+        xpath = "//div[@role='dialog']//span[text()='"+label+"']"
 
     def getXpathOfSelectBoxValue(self,valuetoselect):
         xpath = "//ul/div[contains(text(),'"+valuetoselect+"')]"
         xpat="QA***********************************************************"
         return xpath
+
+    def test(self):
+        q = ".//div[@role='dialog']//span/span/span[not(contains(@class,'entity'))]"
+        s = ".//div[@role='dialog']//div/div/div[contains(@class,'x-form-text-wrap') and contains(@data-ref,'inputWrap')]"
 
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
@@ -138,6 +156,10 @@ class SeleniumDriver():
         element=self.getElement(self.getXpathOfLabelName(label))
         return element
 
+    def getDialogLabelElement(self, label):
+        element=self.getElement(self.getXpathOfDialogLabelName(label))
+        return element
+
     def isElementDisplayed(self, locator="", locatorType="id", element=None):
         """
         Check if element is displayed
@@ -158,7 +180,9 @@ class SeleniumDriver():
         except:
             print("Element not found")
             return False
-
+    def focusSwitch(self):
+        element = self.driver.switch_to_active_element()
+        return element
 
     def isWaitedElementPresent(self, locator, locatorType="xpath",
                        timeout=5, pollFrequency=0.5):
@@ -196,6 +220,22 @@ class SeleniumDriver():
             actions.move_to_element(element)
             actions.click(element)
             actions.perform()
+            #script="document.getElementById(\""+ elementID + "\").click();"getDialogLabelElement
+            #self.driver.execute_script(script)
+            #self.log.info(script)
+            self.log.info("Clicked on Element with locator: " + label + " and locator Type: ")
+        except:
+            self.log.info("Cannot click on Element with locator: " + label + " and locator Type: ")
+            print_stack()
+
+    def clickUsingLabelTextInDialog(self, label):
+        try:
+            actions = ActionChains(self.driver)
+            element = self.getDialogLabelElement(label)
+            #elementID=self.getElementID(locator,locatorType)
+            actions.move_to_element(element)
+            actions.click(element)
+            actions.perform()
             #script="document.getElementById(\""+ elementID + "\").click();"
             #self.driver.execute_script(script)
             #self.log.info(script)
@@ -203,6 +243,7 @@ class SeleniumDriver():
         except:
             self.log.info("Cannot click on Element with locator: " + label + " and locator Type: ")
             print_stack()
+
     def elementClick(self, locator="", locatorType = "xpath",element=None):
         try:
             if locator:
@@ -236,6 +277,13 @@ class SeleniumDriver():
             print_stack()
             text = None
         return text
+
+    def getAttributesOfElement(self,element):
+
+        attributes={}
+        attributes['id'] = element.get_attribute('id')
+        attributes['class'] = element.get_attribute('class')
+        return attributes
 
     def sendKeys(self, data, locator="", locatorType = "xpath", element=None):
         """
@@ -271,7 +319,7 @@ class SeleniumDriver():
             byType = self.getByType(locatorType)
             print("Waiting for maximum :: " + str(timeout) +
                   " :: seconds for element to be Visible")
-            wait = WebDriverWait(self.driver, timeout, poll_frequency=1,
+            wait = WebDriverWait(self.driver, timeout, pollFrequency,
                                  ignored_exceptions=[NoSuchElementException,
                                                      ElementNotVisibleException,
                                                      ElementNotSelectableException])
@@ -302,8 +350,6 @@ class SeleniumDriver():
             self.log.info("Element not appeared on the web page")
             print_stack()
         return element
-
-
 
     def pageScroll(self, direction="up"):
         """

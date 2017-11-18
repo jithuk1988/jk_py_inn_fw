@@ -31,7 +31,6 @@ class NavigationPage(BasePage):
     def navigateToHomeTab(self):
         self.elementClick(locator=self._nav_home)
 
-
     def navigateToOrgTab(self):
         self.elementClick(locator=self._nav_org)
 

@@ -28,14 +28,16 @@ class ProjectPage(BasePage):
         time.sleep(5)
         xpath=self.getXpathOfSelectBoxValue("Auto Category")
         element2 = self.waitForElement(xpath)
-        t = self.elementClick(element=element2)
+        self.elementClick(element=element2)
         #self.log.info("***********************************************************")
         element3 = self.waitForElement(self._nextButton)
-        s = self.elementClick(element=element3)
-        if t is s:
-            return True
-        else:
-            return False
+        self.elementClick(element=element3)
+        #self.clickUsingLabelTextInDialog("Title")
+        ele = self.focusSwitch()
+        att = self.getAttributesOfElement(ele)
+        self.log.info(att)
+       # self.sendKeys("Proname-00",element=ele)
+
 """
     topNavIconsLink = ".//div[contains(@id,'navtoolbar')]/a[contains(@id,'button')]"  #xpath
 

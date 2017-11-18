@@ -1,3 +1,7 @@
 {
-  "tests/home/home_test.py::HomeTest::testHomeNavigation": true
+  "tests/home/home_test.py::HomeTest::testHomeNavigation": true,
+  "tests/project/project_test.py::HomeTest::testProjectNew": true,
+  "tests/test_suite.py::HomeTest::testAdminNavigation": true,
+  "tests/test_suite.py::LoginTest::testInvalidLogin": true,
+  "tests/test_suite.py::LoginTest::testValidLogin": true
 }
