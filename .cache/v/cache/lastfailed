@@ -1,7 +1,5 @@
 {
   "tests/home/home_test.py::HomeTest::testHomeNavigation": true,
   "tests/project/project_test.py::HomeTest::testProjectNew": true,
-  "tests/test_suite.py::HomeTest::testAdminNavigation": true,
-  "tests/test_suite.py::LoginTest::testInvalidLogin": true,
-  "tests/test_suite.py::LoginTest::testValidLogin": true
+  "tests/project/project_test.py::ProjectTest::testProjectNew_1___Auto_Category____10_17_2017____Auto_Project_002____01_01_2017____12_31_2017____In_Progress__": true
 }

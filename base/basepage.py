@@ -13,8 +13,9 @@ Example:
 from base.selenium_driver import SeleniumDriver
 from traceback import print_stack
 from utilities.util import Util
+from base.custom_driver import CustomDriver
 
-class BasePage(SeleniumDriver):
+class BasePage(CustomDriver,SeleniumDriver):
 
     def __init__(self, driver):
         """

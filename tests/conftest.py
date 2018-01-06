@@ -23,8 +23,8 @@ def oneTimeSetUp(request, browser):
     driver = wdf.getWebDriverInstance()
     lp=LoginPage(driver)
     nav = NavigationPage(driver)
-    lp.login("v5new6auto","innotas")
-    util.sleep(15,"Home Page Cache Load")
+    lp.login("v5auto","innotas")
+    util.sleep(30,"Home Page Cache Load")
 
     if request.cls is not None:
         request.cls.driver = driver

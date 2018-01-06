@@ -7,6 +7,8 @@ import utilities.custom_logger as cl
 import logging
 import time
 import os
+import selenium.webdriver.support.ui as UI
+
 from selenium.webdriver import ActionChains
 
 class SeleniumDriver():
@@ -21,7 +23,7 @@ class SeleniumDriver():
     def navigateTo(self,url):
         self.driver.get(url)
 
-    def screenShot(self, resultMessage):
+    def  screenShot(self, resultMessage):
         """
         Takes screenshot of the current open web page
         """
@@ -42,31 +44,6 @@ class SeleniumDriver():
             self.log.error("### Exception Occurred when taking screenshot")
             print_stack()
 
-    def getXpathOfLabelName(self,label):
-        """
-        To get the xpath of an element within a page
-        :param label:
-        :return xpath:
-        """
-        xpath = "//span[text()='"+label+"']"
-        return xpath
-
-    def getXpathOfDialogLabelName(self,label):
-        """
-        To get the xpath of an element within a dialog Eg: Project Creation dialog
-        :param label:
-        :return xpath:
-        """
-        xpath = "//div[@role='dialog']//span[text()='"+label+"']"
-
-    def getXpathOfSelectBoxValue(self,valuetoselect):
-        xpath = "//ul/div[contains(text(),'"+valuetoselect+"')]"
-        xpat="QA***********************************************************"
-        return xpath
-
-    def test(self):
-        q = ".//div[@role='dialog']//span/span/span[not(contains(@class,'entity'))]"
-        s = ".//div[@role='dialog']//div/div/div[contains(@class,'x-form-text-wrap') and contains(@data-ref,'inputWrap')]"
 
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
@@ -106,6 +83,7 @@ class SeleniumDriver():
     def getElementID(self,locator, locatorType="xpath"):
         elementID = None
         try:
+
             locatorType = locatorType.lower()
             byType = self.getByType(locatorType)
             element = self.driver.find_element(byType, locator)
@@ -152,13 +130,7 @@ class SeleniumDriver():
         except:
             print("Element not found")
             return False
-    def getLabelElement(self, label):
-        element=self.getElement(self.getXpathOfLabelName(label))
-        return element
 
-    def getDialogLabelElement(self, label):
-        element=self.getElement(self.getXpathOfDialogLabelName(label))
-        return element
 
     def isElementDisplayed(self, locator="", locatorType="id", element=None):
         """
@@ -197,52 +169,6 @@ class SeleniumDriver():
         except:
             self.log.info("Element not found")
             return False
-    def splitButtonClick(self, locator="", locatorType = "xpath"):
-        try:
-            actions = ActionChains(self.driver)
-            element = self.waitForElementToClickable(locator,locatorType)
-            #elementID=self.getElementID(locator,locatorType)
-            actions.move_to_element(element)
-            actions.click(element)
-            actions.perform()
-            #script="document.getElementById(\""+ elementID + "\").click();"
-            #self.driver.execute_script(script)
-            #self.log.info(script)
-            self.log.info("Clicked on Element with locator: " + locator + " and locator Type: " + locatorType)
-        except:
-            self.log.info("Cannot click on Element with locator: " + locator + " and locator Type: " + locatorType)
-            print_stack()
-    def clickUsingLabelText(self, label):
-        try:
-            actions = ActionChains(self.driver)
-            element = self.getLabelElement(label)
-            #elementID=self.getElementID(locator,locatorType)
-            actions.move_to_element(element)
-            actions.click(element)
-            actions.perform()
-            #script="document.getElementById(\""+ elementID + "\").click();"getDialogLabelElement
-            #self.driver.execute_script(script)
-            #self.log.info(script)
-            self.log.info("Clicked on Element with locator: " + label + " and locator Type: ")
-        except:
-            self.log.info("Cannot click on Element with locator: " + label + " and locator Type: ")
-            print_stack()
-
-    def clickUsingLabelTextInDialog(self, label):
-        try:
-            actions = ActionChains(self.driver)
-            element = self.getDialogLabelElement(label)
-            #elementID=self.getElementID(locator,locatorType)
-            actions.move_to_element(element)
-            actions.click(element)
-            actions.perform()
-            #script="document.getElementById(\""+ elementID + "\").click();"
-            #self.driver.execute_script(script)
-            #self.log.info(script)
-            self.log.info("Clicked on Element with locator: " + label + " and locator Type: ")
-        except:
-            self.log.info("Cannot click on Element with locator: " + label + " and locator Type: ")
-            print_stack()
 
     def elementClick(self, locator="", locatorType = "xpath",element=None):
         try:
@@ -253,6 +179,21 @@ class SeleniumDriver():
         except:
             self.log.info("Cannot click on Element with locator: "+locator+ " and locator Type: "+locatorType)
             print_stack()
+
+    def listSelection(self,locator="",visibleText=""):
+        try:
+            if locator:
+                 select = UI.Select(self.driver.find_element_by_xpath(locator))
+                 select.select_by_visible_text(visibleText)
+            self.log.info("Selected the item : " + locator + "from List")
+        except:
+            self.log.info("Not Selected the item : " + locator + "from List")
+
+
+
+
+
+
 
     def getText(self, locator="", locatorType="xpath", element=None, info=""):
         """

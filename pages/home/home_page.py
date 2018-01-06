@@ -8,7 +8,7 @@ from utilities.util import Util
 
 class HomePage(BasePage):
     log = cl.customLogger(logging.DEBUG)
-    _adminOrgLink = "Organization(dd)"   #Link text
+    _adminOrgLink = "Organization"   #Link text
 
     def __init__(self,driver):
         super().__init__(driver)
@@ -20,7 +20,7 @@ class HomePage(BasePage):
         self.nav.navigateToAdminTab()
 
         adminPageText=self.getText(self._adminOrgLink,locatorType="link")
-        result = self.util.verifyTextMatch(adminPageText,"Organization(dd)")
+        result = self.util.verifyTextMatch(adminPageText,"Organization")
         return result
 """
     topNavIconsLink = ".//div[contains(@id,'navtoolbar')]/a[contains(@id,'button')]"  #xpath

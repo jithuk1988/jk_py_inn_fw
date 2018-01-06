@@ -13,7 +13,7 @@ class LoginTest(unittest.TestCase):
     @pytest.mark.run(order=3)
     def testValidLogin(self):
         self.loginAction.navigateTo(self.loginAction._loginpage_url)
-        self.loginAction.login("v5new6auto","innotas")
+        self.loginAction.login("v5auto","innotas")
         actualresult1 = self.loginAction.verifyLoginSuccess()
         self.testreults.mark(actualresult1,"Valid Login Test-Search Box")
         actualresult2 = self.loginAction.verifyFooterLogo()
@@ -22,7 +22,7 @@ class LoginTest(unittest.TestCase):
     @pytest.mark.run(order=2)
     def testInvalidLogin(self):
         self.loginAction.navigateTo(self.loginAction._loginpage_url)
-        self.loginAction.login("v5new6auto", "innotas21")
+        self.loginAction.login("v5auto", "innotas21")
         actualresult = self.loginAction.verifyFailedLogin()
         self.testreults.markFinal("Invalid Login Test ",actualresult, "Invalid Login Test")
 
