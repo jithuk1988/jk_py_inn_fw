@@ -122,13 +122,3 @@ class ResourcePage(BasePage):
         self.driver.implicitly_wait(15)
         result = self.isElementPresent(locator=exp_path, locatorType="xpath")
         return not result
-
-
-
-
-
-
-
-
-
-
