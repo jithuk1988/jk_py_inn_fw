@@ -6,6 +6,7 @@ from selenium.common.exceptions import *
 import utilities.custom_logger as cl
 import logging
 import time
+import csv
 import os
 import selenium.webdriver.support.ui as UI
 
@@ -44,6 +45,27 @@ class SeleniumDriver():
             self.log.error("### Exception Occurred when taking screenshot")
             print_stack()
 
+    def get_csv_data(csv_path):
+        """
+        read test data from csv and return as list
+
+        @type csv_path: string
+        @param csv_path: some csv path string
+        @return list
+        """
+        rows = []
+        csv_data = open(str(csv_path), "r")
+        content = csv.reader(csv_data)
+
+        # skip header line
+        next(content, None)
+
+        # add rows to list
+        for row in content:
+            rows.append(row)
+        #returnvalue = str(rows) # Converted to String for removal
+        #actualValue = returnvalue[1:-1]  # Remove first and Last chars
+        return rows
 
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
@@ -176,9 +198,11 @@ class SeleniumDriver():
                 element=self.getElement(locator,locatorType)
             element.click()
             self.log.info("Clicked on Element with locator: "+locator+ " and locator Type: "+locatorType)
+            return True
         except:
             self.log.info("Cannot click on Element with locator: "+locator+ " and locator Type: "+locatorType)
             print_stack()
+            return False
 
     def listSelection(self,locator="",visibleText=""):
         try:

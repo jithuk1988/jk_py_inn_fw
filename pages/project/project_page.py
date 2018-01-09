@@ -30,9 +30,9 @@ class ProjectPage(BasePage):
         self.nav.navigateToProjectTab()
         element1 = self.waitForElement(self._newButton)
         self.elementClick(element=element1)
-        time.sleep(1)
+        time.sleep(3)
         self.clickUsingLabelText("Project Category:")
-        time.sleep(5)
+        time.sleep(2)
         xpath=self.getXpathOfSelectBoxValue(category)
         element2 = self.waitForElement(xpath)
         self.elementClick(element=element2)
@@ -49,9 +49,7 @@ class ProjectPage(BasePage):
         self.elementClick(element=element5)
         self.sendKeys(startDate,locator=self._startDateInput)
         self.sendKeys(targetDate, locator=self._targetDateInput)
-        self.elementClick(locator=self._saveButton)
-        actualTitle=self.getText(locator=self._headerTitle)
-        return actualTitle
+        return self.elementClick(locator=self._saveButton)
         #self.clickUsingLabelTextInDialog("Title")
 
        # self.sendKeys("Proname-00",element=ele)

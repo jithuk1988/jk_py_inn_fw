@@ -13,7 +13,7 @@ class ResourceTest(unittest.TestCase):
     @pytest.mark.run(order=1)
     def testResourceNew(self):
         # print(actualresult)
-        actualresult=self.resourceActions.resourceCreation(firstName="Hardik",lastName="Pandya")
+        actualresult=self.resourceActions.resourceCreation(firstName="Hardik",lastName="Pandya",primaryRole="Support",unit="Organization Top Level")
         self.testreults.markFinal("New Resource", actualresult, "Resource created")
 
     @pytest.mark.run(order=2)

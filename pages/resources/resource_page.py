@@ -32,7 +32,7 @@ class ResourcePage(BasePage):
         self.nav = NavigationPage(driver)
         self.util = Util()
 
-    def resourceCreation(self,firstName,lastName):
+    def resourceCreation(self,firstName,lastName,primaryRole,unit):
         time.sleep(2)
         self.nav.navigateToResourceTab()
         element1 = self.waitForElement(self._newButton)
@@ -93,10 +93,10 @@ class ResourcePage(BasePage):
         handlers.pop()
         current_window_index = len(handlers) - 1
         self.driver.switch_to_window(handlers[current_window_index])
-        self.driver.implicitly_wait(2)
-        self.listSelection(locator=self._primaryRoleSelectBox, visibleText="Support")
-        self.driver.implicitly_wait(2)
-        self.listSelection(locator=self._unitSelectBox, visibleText="Organization Top Level")
+        self.driver.implicitly_wait(5)
+        self.listSelection(locator=self._primaryRoleSelectBox, visibleText=primaryRole)
+        self.driver.implicitly_wait(5)
+        self.listSelection(locator=self._unitSelectBox, visibleText=unit)
         self.elementClick(locator=self._saveButton)
         self.driver.implicitly_wait(4)
         user_alert = self.driver.switch_to_alert()
