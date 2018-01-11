@@ -17,7 +17,7 @@ class LoginTest(unittest.TestCase):
         actualresult1 = self.loginAction.verifyLoginSuccess()
         self.testreults.mark(actualresult1,"Valid Login Test-Search Box")
         actualresult2 = self.loginAction.verifyFooterLogo()
-        self.testreults.markFinal("Login Test",actualresult2, "Valid Login Test-Footer Image")
+        self.testreults.markFinal("Login Test",actualresult1, "Valid Login Test-Footer Image")
 
     @pytest.mark.run(order=2)
     def testInvalidLogin(self):
