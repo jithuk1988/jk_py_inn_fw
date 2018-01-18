@@ -20,7 +20,7 @@ class LoginTest(unittest.TestCase):
         self.loginAction.navigateTo(self.loginAction._loginpage_url)
         self.loginAction.login("v5auto","innotas")
         actualresult1 = self.loginAction.verifyLoginSuccess()
-        self.testreults.mark(actualresult1,testName)
+        self.testreults.markFinal(testName,actualresult1,testName)
         # actualresult2 = self.loginAction.verifyFooterLogo()
         # self.testreults.markFinal("Login Test",actualresult1, "Valid Login Test-Footer Image")
         end = datetime.datetime.now()
@@ -37,7 +37,7 @@ class LoginTest(unittest.TestCase):
         self.loginAction.navigateTo(self.loginAction._loginpage_url)
         self.loginAction.login("v5auto", "innotas21")
         actualresult = self.loginAction.verifyFailedLogin()
-        self.testreults.markFinal(testName,actualresult, "Invalid Login Test")
+        self.testreults.markFinal(testName,actualresult, testName)
         end = datetime.datetime.now()
         dbMeth = DbMethods()
         timeTaken = dbMeth.timeDiff(start, end)
@@ -48,10 +48,10 @@ class LoginTest(unittest.TestCase):
         db.close()
     @pytest.mark.run(order=1)
     def testLoginPageTitle(self):
-        testName = "Login Page Title Verification Test"
+        testName = "Login Success Page Title Verification Test"
         start = datetime.datetime.now()
         actualresult = self.loginAction.verifyLoginPageTitle()
-        self.testreults.mark(actualresult, "Login Page Title Test")
+        self.testreults.markFinal(testName,actualresult, testName)
         end = datetime.datetime.now()
         dbMeth = DbMethods()
         timeTaken = dbMeth.timeDiff(start, end)

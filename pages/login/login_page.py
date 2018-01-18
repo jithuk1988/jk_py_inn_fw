@@ -45,5 +45,5 @@ class LoginPage(BasePage):
         return result
 
     def verifyLoginPageTitle(self):
-        result = self.verifyPageTitle("Innotas | Customer Log In")
+        result = self.verifyPageTitle("Timesheets")
         return result

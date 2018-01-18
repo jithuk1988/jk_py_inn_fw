@@ -25,7 +25,7 @@ class TCStatus(SeleniumDriver):
     def setResult(self, result, resultMessage):
         try:
             if result is not None:
-                if result:
+                if result is True:
                     self.resultList.append("PASS")
                     self.log.info("### VERIFICATION SUCCESSFUL :: + " + resultMessage)
                 else:
