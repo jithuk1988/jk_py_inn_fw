@@ -51,8 +51,12 @@ class WebDriverFactory():
             # Maximize Not required for firefox because its defaults to Maximized mode- Command cause minimize
         elif self.browser == "chrome":
             # Set chrome driver
-            driver = webdriver.Chrome()
+            # chromeOptions = webdriver.ChromeOptions()
+            # chromeOptions.add_argument("headless")
+            # chromeOptions.add_argument("--start-maximized")
+            # driver = webdriver.Chrome(chrome_options=chromeOptions)
             # Maximize the window
+            driver = webdriver.Chrome()
             driver.maximize_window()
         else:
             driver = webdriver.Firefox()

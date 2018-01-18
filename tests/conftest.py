@@ -24,7 +24,7 @@ def oneTimeSetUp(request, browser):
     lp=LoginPage(driver)
     nav = NavigationPage(driver)
     lp.login("v5auto","innotas")
-    util.sleep(30,"Home Page Cache Load")
+    util.sleep(20,"Home Page Cache Load")
 
     if request.cls is not None:
         request.cls.driver = driver
