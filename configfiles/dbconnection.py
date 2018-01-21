@@ -20,9 +20,11 @@ class MyDatabase():
 class DbMethods():
     def queryTestInsert(self,testname,start,end,result,time):
         #start = datetime.datetime.now()
-        starttime = start.strftime("%Y-%m-%d %H:%M")
+        print(start)
+        print(end)
+        starttime = start.strftime("%Y-%m-%d %H:%M:%S")
         #end = datetime.datetime.now()
-        endtime = end.strftime("%Y-%m-%d %H:%M")
+        endtime = end.strftime("%Y-%m-%d %H:%M:%S")
         actualresult1 = result
         query = "insert into tests(testname,starttime,endtime,status,seconds_taken\
 ) values('"+testname+"','" + str(starttime) + "','" + str(endtime) + "','" + str(actualresult1) + "',"+str(time)+")"
